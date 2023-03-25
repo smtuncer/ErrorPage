@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "Error1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="error" style="background-color:#BCBCBC">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <div class="error-content">
+                    <h1 class="error-content__title">SAYFA BULUNAMADI !!</h1>
+                    <p class="error-content__text">
+                        Aradığınız sayfa, adı değiştirilmiş veya geçici olarak kullanılamıyorsa kaldırılmış olabilir.
+                    </p>
+                    <a asp-action="Index" class="btn btn-secondary btn-hover-primary" type="submit">Anasayfa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
